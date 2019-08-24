@@ -1,0 +1,19 @@
+{
+  "name": "business-card",
+  "version": "1.0.0",
+  "description": "the site is about me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarimovDev/business-card.git"
+  },
+  "author": "Karimov Dima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarimovDev/business-card/issues"
+  },
+  "homepage": "https://github.com/KarimovDev/business-card#readme"
+}
