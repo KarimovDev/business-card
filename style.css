@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Poppins-Light';
+    src: URL('src/fonts/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins-Extra-Light';
+    src: URL('src/fonts/Poppins-ExtraLight.ttf') format('truetype');
+}
+
+#parallax-container {
+    background-image: url(src/images/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -10;
+    padding: 10% 22%;
+}
+
+.content {
+    padding: 60px 80px;
+    color: #FFF;
+    background-image: url(src/images/bg_pattern_brown.png); 
+    box-shadow: 0 0 0 10px rgba(44, 25, 0, 0.2);
+    border-radius: 2%;
+}
+
+.content-header {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    border-bottom: 1px solid #100F0F;
+    padding-bottom: 20px;
+}
+
+.header-image {
+    border-radius: 50%;
+    border: 6px solid #fff;
+    width: 160px;
+}
+
+.header-caption {
+    margin-left: 60px;
+}
+
+p {
+    padding-bottom: 15px;
+    font-family: 'Poppins-Extra-Light', 'extra-light';
+}
+
+.content-section-bio {
+    border-top: 1px solid #2F2E2D;
+    font-size: 24px;
+    padding: 20px 0;
+    border-bottom: 1px solid #100F0F;
+}
+
+.content-section-projects {
+    border-top: 1px solid #2F2E2D;
+    font-size: 24px;
+    padding: 20px 0;
+    border-bottom: 1px solid #100F0F;
+}
+
+.content-section-contacts {
+    border-top: 1px solid #2F2E2D;
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.right-align-links {
+    margin-left: auto;
+}
+
+h2 {
+    font-size: 28px;
+    padding-bottom: 25px;
+}
+
+li {
+    display: flex;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #353526;
+    padding-top: 15px;
+    font-family: 'Poppins-Extra-Light', 'extra-light';
+}
+
+body {
+    margin: 0px 0px;
+    font-family: 'Poppins-Light';
+}
+
+a {
+    color: #b47413
+}
