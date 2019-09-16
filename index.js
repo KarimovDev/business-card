@@ -3,5 +3,5 @@ window.addEventListener('scroll', () => {
     const position = window.pageYOffset;
     const element = document.getElementById('parallax-container');
     
-    element.style.backgroundPosition = `50% ${-Math.round(position * velocity)}px`;
+    element.style.backgroundPosition = `0 ${-Math.round(position * velocity)}px`;
 });
