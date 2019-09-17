@@ -4,7 +4,9 @@
   "description": "the site is about me",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/KarimovDev/business-card/issues"
   },
-  "homepage": "https://github.com/KarimovDev/business-card#readme"
+  "homepage": "https://github.com/KarimovDev/business-card#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^9.0.5",
+    "node-sass": "^4.12.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {}
 }
