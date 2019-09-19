@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { getDifferenceInDays } from '../helpers/dates';
+import { getDifferenceInDays } from '../helpers/dates.helper';
 
 class Age extends Component {
     constructor() {
