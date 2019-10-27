@@ -66,7 +66,7 @@ table {
 }
 
 .content {
-    padding: 60px 80px;
+    padding: 8% 10%;
     color: #FFF;
     background-image: url(/static/images/bg_pattern_brown.png); 
     box-shadow: 0 0 0 10px rgba(44, 25, 0, 0.2);
@@ -88,7 +88,7 @@ table {
 }
 
 .header-caption {
-    margin-left: 60px;
+    margin-left: 10%;
 }
 
 p {
@@ -140,4 +140,108 @@ body {
 
 a {
     color: #b47413
+}
+
+@media (max-width: 1180px) {
+    .header-image {
+        width: 110px;
+        border: 4px solid #fff;
+    }
+    .content-header {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+    #parallax-container {
+        padding: 8% 16%;
+    }
+    p {
+        padding-bottom: 10px;
+    }
+    .content-section-bio, .content-section-projects, .content-section-contacts {
+        font-size: 22px;
+    }
+    li {
+        padding-bottom: 3px;
+        padding-top: 12px;
+    }
+}
+@media (max-width: 780px) {
+    .header-image {
+        width: 60px;
+        border: 3px solid #fff;
+    }
+    #parallax-container {
+        padding: 5% 10%;
+    }
+    .content-header {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+    p {
+        padding-bottom: 8px;
+    }
+    .content-section-bio, .content-section-projects, .content-section-contacts {
+        font-size: 20px;
+    }
+    li {
+        padding-bottom: 3px;
+        padding-top: 10px;
+    }
+}
+@media (max-width: 550px) {
+    .header-image {
+        display: none;
+    }
+    .content-header {
+        font-size: 20px;
+    }
+    #parallax-container {
+        padding: 3% 6%;
+    }
+    .content {
+        padding: 4% 5%;
+    }
+    .header-caption {
+        margin: 0 0;
+    }
+    h2 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    p {
+        padding-bottom: 7px;
+    }
+    .content-section-bio, .content-section-projects, .content-section-contacts {
+        font-size: 18px;
+    }
+    li, li span, li a {
+        display: block;
+    }
+    .right-align-links {
+        padding-left: 6px;
+    }
+}
+@media (max-width: 350px) {
+    .header-image {
+        display: none;
+    }
+    .content-header {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 16px;
+        padding-bottom: 8px;
+    }
+    p {
+        padding-bottom: 6px;
+    }
+    .content-section-bio, .content-section-projects, .content-section-contacts {
+        font-size: 14px;
+    }
 }
