@@ -14,7 +14,7 @@ const App = () => (
             <meta httpEquiv="X-UA-Compatible" content="ie=edge"></meta>
             <link rel="icon" type="image/png" href="/static/images/favicon.png"></link>
         </Head>
-        <div id="parallax-container">
+        <div className="content-container">
             <div className="content">
                 <div className="content-header">
                     <div className="header-image-wrapper">
