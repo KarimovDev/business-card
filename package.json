@@ -20,10 +20,10 @@
   "homepage": "https://github.com/KarimovDev/business-card#readme",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
-    "next": "^9.0.5",
-    "node-sass": "^4.12.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "next": "^9.3.5",
+    "node-sass": "^4.14.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {}
 }
