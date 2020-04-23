@@ -31,10 +31,10 @@ const App = () => (
                     <Age/>
                     <Experience/>
                     <p>    
-                        I am currently working as Angular developer at <a className="right-align-links" target="_blank" href="https://www.mts.ru">MTS</a> company.
+                        I am currently working as Angular developer at <a className="right-align-links" target="_blank" href="https://www.aitarget.com">Aitarget</a> company.
                     </p>
                     <p>
-                        MTS is the largest mobile provider in Russia.
+                        Aitarget is a single solution for the full scope of advertising tasks on Facebook and Youtube — from making creatives to campaign optimization..
                     </p>
 
                 </section>
