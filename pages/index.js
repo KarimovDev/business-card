@@ -15,8 +15,7 @@ const App = () => (
       <script
         dangerouslySetInnerHTML={{
           __html: `
-        window.dataLayer = window.dataLayer || []; function gtag(){" "}
-        {dataLayer.push(arguments)}
+        window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date()); gtag('config', 'UA-165434864-1');
       `,
         }}
