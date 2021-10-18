@@ -1,25 +1,14 @@
 import Head from "next/head";
+import Script from "next/script";
+import Img from "next/image";
 import Age from "../components/age.component";
 import Experience from "../components/experience.component";
 import Contacts from "../components/contacts.component";
-import "../static/scss/style.scss";
 import Projects from "../components/projects.component";
 
 const App = () => (
   <>
     <Head>
-      <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-165434864-1"
-      ></script>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-        window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date()); gtag('config', 'UA-165434864-1');
-      `,
-        }}
-      ></script>
       <title>Karimov Dima</title>
       <meta charSet="UTF-8"></meta>
       <meta
@@ -42,11 +31,13 @@ const App = () => (
       <div className="content">
         <div className="content-header">
           <div className="header-image-wrapper">
-            <img
+            <Img
+              layout="fill"
+              objectFit="contain"
               className="header-image"
               src="/static/images/avatar.jpg"
               alt="Karimov Dima avatar"
-            ></img>
+            ></Img>
           </div>
           <div className="header-caption">
             <h1>Karimov Dima</h1>
@@ -62,6 +53,7 @@ const App = () => (
             <a
               className="right-align-links"
               target="_blank"
+              rel="noreferrer"
               href="https://www.aitarget.com"
             >
               Aitarget
@@ -89,9 +81,22 @@ const App = () => (
           </ul>
         </section>
       </div>
-      <script type="text/javascript" src="/static/scripts/parallax.js"></script>
+      <Script type="text/javascript" src="/static/scripts/parallax.js"></Script>
     </div>
   </>
 );
 
 export default App;
+
+export async function getServerSideProps({ req, res }) {
+  res.setHeader(
+    "Cache-Control",
+    "public, s-maxage=10, stale-while-revalidate=59"
+  );
+
+  return {
+    props: {
+      time: new Date().toISOString(),
+    },
+  };
+}

@@ -61,6 +61,7 @@ html {
     background-image: url(/static/images/bg.jpg);
     background-attachment: fixed;
     background-size: cover;
+    background-color: #000000;
 }
 
 .content-container {
@@ -84,10 +85,17 @@ html {
     padding-bottom: 20px;
 }
 
+.header-image-wrapper {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    border-radius: 50%;
+    border: 6px solid #fff;
+}
+
 .header-image {
     border-radius: 50%;
     border: 6px solid #fff;
-    width: 160px;
 }
 
 .header-caption {
@@ -171,7 +179,7 @@ a {
         padding-top: 12px;
     }
 }
-@media (max-width: 780px) {
+@media (max-width: 830px) {
     .header-image {
         width: 60px;
         border: 3px solid #fff;
@@ -197,12 +205,12 @@ a {
         padding-top: 10px;
     }
 }
-@media (max-width: 550px) {
+@media (max-width: 580px) {
     .header-image {
         display: none;
     }
     .content-header {
-        font-size: 24px;
+        font-size: 22px;
     }
     .content-container {
         padding: 6% 6%;
@@ -210,8 +218,10 @@ a {
     .content {
         padding: 4% 5%;
     }
-    .header-caption {
-        margin: 0 0;
+    .header-image-wrapper {
+        width: 80px;
+        height: 80px;
+        border: 3px solid #fff;
     }
     h2 {
         font-size: 20px;
@@ -235,7 +245,12 @@ a {
         display: none;
     }
     .content-header {
-        font-size: 22px;
+        font-size: 20px;
+    }
+    .header-image-wrapper {
+        width: 60px;
+        height: 60px;
+        border: 3px solid #fff;
     }
     h2 {
         font-size: 16px;
