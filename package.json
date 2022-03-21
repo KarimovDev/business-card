@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/KarimovDev/business-card#readme",
   "dependencies": {
-    "next": "^11.1.2",
+    "next": "^12.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-gtm-module": "^2.0.11"
