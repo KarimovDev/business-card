@@ -14,9 +14,9 @@ export const getContacts = () => {
         },
         {
             name: 'E-Mail',
-            href: 'mailto:kardimail@gmail.com',
+            href: 'mailto:dima@karimov.it',
             target: '',
-            description: 'kardimail@gmail.com',
+            description: 'dima@karimov.it',
         },
         {
             name: 'Phone',
