@@ -30,15 +30,13 @@ const App = () => (
     <div className="content-container">
       <div className="content">
         <div className="content-header">
-          <div className="header-image-wrapper">
-            <Img
-              layout="fill"
-              objectFit="contain"
-              className="header-image"
-              src="/static/images/avatar.jpg"
-              alt="Karimov Dima avatar"
-            ></Img>
-          </div>
+          <Img
+            width={150}
+            height={150}
+            className="header-image"
+            src="/static/images/avatar.jpg"
+            alt="Karimov Dima avatar"
+          ></Img>
           <div className="header-caption">
             <h1>Karimov Dima</h1>
             <h1>web developer</h1>
@@ -46,16 +44,14 @@ const App = () => (
         </div>
 
         <section className="content-section-bio">
-          <Age />
+          {/* <Age /> */}
           <Experience />
           <p>
+            My tech stack is Angular, React, Node.js, NestJS, MongoDB, PostgreSQL, Redis, Kafka, Docker.
+          </p>
+          <p>
             I am currently working as Angular developer at{" "}
-            <a
-              className="right-align-links"
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.aitarget.com"
-            >
+            <a target="_blank" rel="noreferrer" href="https://www.aitarget.com">
               Aitarget
             </a>{" "}
             company.
