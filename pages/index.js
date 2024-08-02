@@ -30,13 +30,18 @@ const App = () => (
     <div className="content-container">
       <div className="content">
         <div className="content-header">
-          <Img
+          {/* <Img
             width={150}
             height={150}
             className="header-image"
             src="/static/images/avatar.jpg"
             alt="Karimov Dima avatar"
-          ></Img>
+          ></Img> */}
+          <img
+            className="header-image"
+            src="/static/images/avatar.jpg"
+            alt="Karimov Dima avatar"
+          ></img>
           <div className="header-caption">
             <h1>Karimov Dima</h1>
             <h1>web developer</h1>
@@ -47,7 +52,8 @@ const App = () => (
           {/* <Age /> */}
           <Experience />
           <p>
-            My tech stack is Angular, React, Node.js, NestJS, MongoDB, PostgreSQL, Redis, Kafka, Docker.
+            My tech stack is Angular, React, Node.js, NestJS, MongoDB,
+            PostgreSQL, Redis, Kafka, Docker.
           </p>
           <p>
             I am currently working as Angular developer at{" "}
