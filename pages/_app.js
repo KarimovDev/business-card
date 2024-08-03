@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import "../static/scss/style.scss";
+import "../public/scss/style.scss";
 import TagManager from "react-gtm-module";
 
 function MyApp({ Component, pageProps }) {

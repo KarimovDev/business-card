@@ -1,19 +1,12 @@
-import { Component } from 'react';
-import { getDifferenceInDays } from '../helpers/dates.helper';
+import { useEffect, useState } from "react";
+import { getDifferenceInDays } from "../helpers/dates.helper";
 
-class Experience extends Component {
-    constructor() {
-        super();
-        this.expInMonth = ~~(getDifferenceInDays(new Date(2014, 7, 15)) / 30.4375);
-    }
+export default function Experience() {
+  const [expInMonth, setExpInMonth] = useState(0);
 
-    render() {
-        return (
-            <p>
-                I have {this.expInMonth} month of professional developer experience.
-            </p>
-        );
-    }
+  useEffect(() => {
+    setExpInMonth(~~(getDifferenceInDays(new Date(2014, 7, 15)) / 30.4375));
+  }, []);
+
+  return <p>I have {expInMonth} month of professional developer experience.</p>;
 }
-
-export default Experience;

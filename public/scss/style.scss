@@ -130,16 +130,16 @@ table {
 
 @font-face {
   font-family: "Poppins-Light";
-  src: URL("/static/fonts/Poppins-Light.ttf") format("truetype");
+  src: URL("/fonts/Poppins-Light.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Poppins-Extra-Light";
-  src: URL("/static/fonts/Poppins-ExtraLight.ttf") format("truetype");
+  src: URL("/fonts/Poppins-ExtraLight.ttf") format("truetype");
 }
 
 html {
-  background-image: url(/static/images/bg.jpg);
+  background-image: url(/images/bg.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-color: #000000;
@@ -153,8 +153,8 @@ html {
 .content {
   padding: 8% 10%;
   color: #fff;
-  background-image: url(/static/images/bg_pattern_brown.png);
-  box-shadow: 0 0 0 10px rgba(44, 25, 0, 0.2);
+  background-image: url(/images/bg_pattern.png);
+  box-shadow: 0 0 0 10px rgba(0, 10, 44, 0.2);
   border-radius: 2%;
 }
 
@@ -189,21 +189,21 @@ p {
 }
 
 .content-section-bio {
-  border-top: 1px solid #2f2e2d;
+  border-top: 1px solid #2d2d2f;
   font-size: 24px;
   padding: 20px 0;
   border-bottom: 1px solid #100f0f;
 }
 
 .content-section-projects {
-  border-top: 1px solid #2f2e2d;
+  border-top: 1px solid #2d2d2f;
   font-size: 24px;
   padding: 20px 0;
   border-bottom: 1px solid #100f0f;
 }
 
 .content-section-contacts {
-  border-top: 1px solid #2f2e2d;
+  border-top: 1px solid #2d2d2f;
   font-size: 24px;
   padding: 20px 0;
 }
@@ -220,7 +220,7 @@ h2 {
 li {
   display: flex;
   padding-bottom: 10px;
-  border-bottom: 1px solid #353526;
+  border-bottom: 1px solid #262835;
   padding-top: 15px;
   font-family: "Poppins-Extra-Light", "extra-light";
 }
@@ -231,7 +231,7 @@ body {
 }
 
 a {
-  color: #b47413;
+  color: #1775c7;
 }
 
 @media (max-width: 1180px) {

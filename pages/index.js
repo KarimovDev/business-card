@@ -25,7 +25,7 @@ const App = () => (
       <link
         rel="icon"
         type="image/png"
-        href="/static/images/favicon.png"
+        href="/images/favicon.png"
       ></link>
     </Head>
     <div className="content-container">
@@ -35,17 +35,17 @@ const App = () => (
             width={150}
             height={150}
             className="header-image"
-            src="/static/images/avatar.jpg"
+            src="/images/avatar.jpg"
             alt="Karimov Dima avatar"
           ></Img> */}
           <img
             className="header-image"
-            src="/static/images/avatar.jpg"
+            src="/images/avatar.jpg"
             alt="Karimov Dima avatar"
           ></img>
           <div className="header-caption">
             <h1 className="header-caption-name">Karimov Dima</h1>
-            <h1>web developer</h1>
+            <h1>software engineer</h1>
           </div>
         </div>
 
@@ -84,22 +84,22 @@ const App = () => (
           </ul>
         </section>
       </div>
-      <Script type="text/javascript" src="/static/scripts/parallax.js"></Script>
+      <Script type="text/javascript" src="/scripts/parallax.js"></Script>
     </div>
   </>
 );
 
+// export async function getServerSideProps({ req, res }) {
+//   res.setHeader(
+//     "Cache-Control",
+//     "public, s-maxage=10, stale-while-revalidate=59"
+//   );
+
+//   return {
+//     props: {
+//       time: new Date().toISOString(),
+//     },
+//   };
+// }
+
 export default App;
-
-export async function getServerSideProps({ req, res }) {
-  res.setHeader(
-    "Cache-Control",
-    "public, s-maxage=10, stale-while-revalidate=59"
-  );
-
-  return {
-    props: {
-      time: new Date().toISOString(),
-    },
-  };
-}
