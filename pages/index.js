@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import Script from "next/script";
 import Img from "next/image";
@@ -43,7 +44,7 @@ const App = () => (
             alt="Karimov Dima avatar"
           ></img>
           <div className="header-caption">
-            <h1>Karimov Dima</h1>
+            <h1 className="header-caption-name">Karimov Dima</h1>
             <h1>web developer</h1>
           </div>
         </div>
