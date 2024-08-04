@@ -35,12 +35,12 @@ const App = () => (
             width={150}
             height={150}
             className="header-image"
-            src="/images/avatar.jpg"
+            src="/images/avatar.webp"
             alt="Karimov Dima avatar"
           ></Img> */}
           <img
             className="header-image"
-            src="/images/avatar.jpg"
+            src="/images/avatar.webp"
             alt="Karimov Dima avatar"
           ></img>
           <div className="header-caption">
