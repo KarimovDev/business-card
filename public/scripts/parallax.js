@@ -1,5 +1,5 @@
 const calculateBackgroundPosition = () => {
-  const velocity = 0.2;
+  const velocity = 0.3;
   const position = window.scrollY;
   const element = document.getElementsByTagName("html")[0];
 
