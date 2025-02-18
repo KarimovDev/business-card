@@ -20,14 +20,14 @@
   },
   "homepage": "https://github.com/KarimovDev/business-card#readme",
   "dependencies": {
-    "next": "^13.5.6",
+    "next": "^14.2.24",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-gtm-module": "^2.0.11"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
-    "eslint-config-next": "14.2.5",
+    "eslint-config-next": "^14.2.24",
     "sass": "^1.77.8"
   }
 }
